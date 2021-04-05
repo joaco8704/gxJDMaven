@@ -37,6 +37,30 @@ public final  class holamundo extends GXProcedure
       arr_AV5Mensaje[0] = this.AV5Mensaje;
    }
 
+   public void gxep_procedure1( )
+   {
+      initialize();
+      initialized = (short)(1) ;
+      /* Procedure1 Constructor */
+      new com.idquilmes.docker.procedure1(remoteHandle, context).execute( ) ;
+   }
+
+   public void gxep_otroprocedure( )
+   {
+      initialize();
+      initialized = (short)(1) ;
+      /* otroProcedure Constructor */
+      new com.idquilmes.docker.otroprocedure(remoteHandle, context).execute( ) ;
+   }
+
+   public void gxep_algomas( )
+   {
+      initialize();
+      initialized = (short)(1) ;
+      /* AlgoMas Constructor */
+      new com.idquilmes.docker.algomas(remoteHandle, context).execute( ) ;
+   }
+
    protected void cleanup( )
    {
       if ( initialized != 1 )

@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: "ID_Quilmes"
-  version: "20210318191249"
+  version: "20210405211046"
 host: localhost:8080
 schemes:
   - http
@@ -23,11 +23,50 @@ paths:
         404:
           description: "Not found"
 
+  /Procedure1:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "Procedure1"
+      summary: "Procedure1"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+
+  /otroProcedure:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "otroProcedure"
+      summary: "otroProcedure"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+
+  /AlgoMas:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "AlgoMas"
+      summary: "AlgoMas"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+
 definitions:
   saludoOutput:
     properties:
       Mensaje:
         type: "string"
+
+
+
 
 
   
