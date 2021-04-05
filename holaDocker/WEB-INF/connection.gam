@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ConnectionCollection>
+  <Connection xmlns="">
+    <Name>ID_Quilmes</Name>
+    <Repository>5778d52b-1aac-4e81-b970-fdc311cd16df</Repository>
+    <UserName>tAdveizKQaLJaUts18R6Mg==</UserName>
+    <UserPassword>CeWwU3wSvf4eu6IJhVMuXw==</UserPassword>
+    <Type>LAN</Type>
+    <Language />
+  </Connection>
+</ConnectionCollection>

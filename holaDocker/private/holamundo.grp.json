@@ -1,0 +1,15 @@
+{
+"ObjectType":"ServiceGroup",
+"Name":"holaMundo",
+"BasePath":"holaMundo",
+"Mappings":
+[
+{
+"Name":"saludo",
+"Path":"saludo",
+"ServiceMethod":"gxep_saludo",
+"Implementation":"docker\\saludo",
+"Bodystyle":"Wrapped",
+"Verb":"GET"
+}
+]}
