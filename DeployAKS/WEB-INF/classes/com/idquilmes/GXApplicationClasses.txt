@@ -1,0 +1,1 @@
+com.idquilmes.gamcheckuseractivationmethod_services_rest

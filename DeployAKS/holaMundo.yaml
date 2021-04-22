@@ -1,0 +1,72 @@
+swagger: '2.0'
+info:
+  title: "ID_Quilmes"
+  version: "20210405211046"
+host: localhost:8080
+schemes:
+  - http
+basePath: /ID_QuilmesJavaEnvironment/holaMundo
+produces:
+  - application/json
+paths:
+  /saludo:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "saludo"
+      summary: "saludo"
+      responses:
+        200:
+          description: "Successful operation"
+            type: "string"
+
+        404:
+          description: "Not found"
+
+  /Procedure1:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "Procedure1"
+      summary: "Procedure1"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+
+  /otroProcedure:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "otroProcedure"
+      summary: "otroProcedure"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+
+  /AlgoMas:
+    get:
+      tags:
+        - holaMundo  
+      operationId: "AlgoMas"
+      summary: "AlgoMas"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+
+definitions:
+  saludoOutput:
+    properties:
+      Mensaje:
+        type: "string"
+
+
+
+
+
+  

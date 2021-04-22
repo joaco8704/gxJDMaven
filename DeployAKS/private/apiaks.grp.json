@@ -1,0 +1,15 @@
+{
+"ObjectType":"ServiceGroup",
+"Name":"APIAKS",
+"BasePath":"APIAKS",
+"Mappings":
+[
+{
+"Name":"procedureaks",
+"Path":"procedureaks",
+"ServiceMethod":"gxep_procedureaks",
+"Implementation":"procedureAKS",
+"Bodystyle":"Wrapped",
+"Verb":"GET"
+}
+]}
