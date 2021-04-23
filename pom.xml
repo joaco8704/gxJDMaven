@@ -3,6 +3,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+	</parent>
+
 	<groupId>com.idquilmes</groupId>
 	<artifactId>DeployAKS</artifactId>
 	<version>1.0-SNAPSHOT</version>
@@ -22,35 +25,35 @@
 			<groupId>genexus</groupId>
 			<artifactId>GeneXusSecurity</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
 		</dependency>
 		<!-- annotations-api.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>annotations-api</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/annotations-api.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/annotations-api.jar</systemPath>
 		</dependency>
 		<!-- artech.security.saml.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>artech.security.saml</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/artech.security.saml.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/artech.security.saml.jar</systemPath>
 		</dependency>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>commons-codec-1.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
@@ -63,14 +66,14 @@
 			<groupId>genexus</groupId>
 			<artifactId>commons-fileupload-1.3.3</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/commons-fileupload-1.3.3.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/commons-fileupload-1.3.3.jar</systemPath>
 		</dependency>
 		<!-- commons-httpclient-3.1.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>commons-httpclient-3.1</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/commons-httpclient-3.1.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/commons-httpclient-3.1.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -95,70 +98,70 @@
 			<groupId>genexus</groupId>
 			<artifactId>encoder-1.2.2</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/encoder-1.2.2.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/encoder-1.2.2.jar</systemPath>
 		</dependency>
 		<!-- encoder-jsp-1.2.2.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>encoder-jsp-1.2.2</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/encoder-jsp-1.2.2.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/encoder-jsp-1.2.2.jar</systemPath>
 		</dependency>
 		<!-- esapi-2.1.0.1.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>esapi-2.1.0.1</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/esapi-2.1.0.1.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/esapi-2.1.0.1.jar</systemPath>
 		</dependency>
 		<!-- GAMCache.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GAMCache</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GAMCache.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GAMCache.jar</systemPath>
 		</dependency>
 		<!-- GAMCryptography.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GAMCryptography</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GAMCryptography.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GAMCryptography.jar</systemPath>
 		</dependency>
 		<!-- GAMDynamicCall.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GAMDynamicCall</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GAMDynamicCall.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GAMDynamicCall.jar</systemPath>
 		</dependency>
 		<!-- GeneXus.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GeneXus</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXus.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXus.jar</systemPath>
 		</dependency>
 		<!-- genexus.security-mysql.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>genexus.security-mysql</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/genexus.security-mysql.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/genexus.security-mysql.jar</systemPath>
 		</dependency>
 		<!-- GeneXusSecurity.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GeneXusSecurity</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
 		</dependency>
 		<!-- GeneXusSecurityCommon.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GeneXusSecurityCommon</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXusSecurityCommon.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXusSecurityCommon.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
@@ -171,35 +174,35 @@
 			<groupId>genexus</groupId>
 			<artifactId>gxclassR</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxclassR.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxclassR.jar</systemPath>
 		</dependency>
 		<!-- gxcommon.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>gxcommon</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxcommon.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxcommon.jar</systemPath>
 		</dependency>
 		<!-- gxcryptocommon.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>gxcryptocommon</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxcryptocommon.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxcryptocommon.jar</systemPath>
 		</dependency>
 		<!-- gxmaps.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>gxmaps</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxmaps.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxmaps.jar</systemPath>
 		</dependency>
 		<!-- GXzip.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GXzip</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GXzip.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GXzip.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-api -->
 		<dependency>
@@ -224,42 +227,42 @@
 			<groupId>genexus</groupId>
 			<artifactId>jackson-annotations-2.11.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-annotations-2.11.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-annotations-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-core-2.11.0.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-core-2.11.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-core-2.11.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-core-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-databind-2.11.0.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-databind-2.11.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-databind-2.11.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-databind-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-jaxrs-base-2.9.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-jaxrs-base-2.9.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-jaxrs-base-2.9.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-jaxrs-base-2.9.9.jar</systemPath>
 		</dependency>
 		<!-- jackson-jaxrs-json-provider-2.9.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-jaxrs-json-provider-2.9.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-jaxrs-json-provider-2.9.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-jaxrs-json-provider-2.9.9.jar</systemPath>
 		</dependency>
 		<!-- jackson-module-jaxb-annotations-2.9.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-module-jaxb-annotations-2.9.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.9.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
 		<dependency>
@@ -278,7 +281,7 @@
 			<groupId>genexus</groupId>
 			<artifactId>javax.jms-3.1.2.2</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/javax.jms-3.1.2.2.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/javax.jms-3.1.2.2.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.main.javaee-api/javax.jws -->
 		<dependency>
@@ -315,21 +318,21 @@
 			<groupId>genexus</groupId>
 			<artifactId>jersey-client</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-client.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-client.jar</systemPath>
 		</dependency>
 		<!-- jersey-common.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jersey-common</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-common.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-common.jar</systemPath>
 		</dependency>
 		<!-- jersey-container-servlet-core.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jersey-container-servlet-core</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-container-servlet-core.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-container-servlet-core.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.ext/jersey-entity-filtering -->
 		<dependency>
@@ -354,98 +357,98 @@
 			<groupId>genexus</groupId>
 			<artifactId>jersey-server</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-server.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-server.jar</systemPath>
 		</dependency>
 		<!-- joda-time-2.10.4.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>joda-time-2.10.4</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/joda-time-2.10.4.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/joda-time-2.10.4.jar</systemPath>
 		</dependency>
 		<!-- json-20180813.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>json-20180813</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/json-20180813.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/json-20180813.jar</systemPath>
 		</dependency>
 		<!-- log4j-api-2.13.3.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>log4j-api-2.13.3</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/log4j-api-2.13.3.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/log4j-api-2.13.3.jar</systemPath>
 		</dependency>
 		<!-- log4j-core-2.13.3.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>log4j-core-2.13.3</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/log4j-core-2.13.3.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/log4j-core-2.13.3.jar</systemPath>
 		</dependency>
 		<!-- mysql-connector-java-5.1.49.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>mysql-connector-java-5.1.49</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/mysql-connector-java-5.1.49.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/mysql-connector-java-5.1.49.jar</systemPath>
 		</dependency>
 		<!-- not-yet-commons-ssl-0.3.17.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>not-yet-commons-ssl-0.3.17</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/not-yet-commons-ssl-0.3.17.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/not-yet-commons-ssl-0.3.17.jar</systemPath>
 		</dependency>
 		<!-- oauthlibgx.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>oauthlibgx</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/oauthlibgx.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/oauthlibgx.jar</systemPath>
 		</dependency>
 		<!-- opensaml-2.6.5.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>opensaml-2.6.5</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/opensaml-2.6.5.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/opensaml-2.6.5.jar</systemPath>
 		</dependency>
 		<!-- openws-1.5.4.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>openws-1.5.4</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/openws-1.5.4.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/openws-1.5.4.jar</systemPath>
 		</dependency>
 		<!-- reorganization.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>reorganization</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/reorganization.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/reorganization.jar</systemPath>
 		</dependency>
 		<!-- slf4j-api-1.7.5.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>slf4j-api-1.7.5</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/slf4j-api-1.7.5.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/slf4j-api-1.7.5.jar</systemPath>
 		</dependency>
 		<!-- slf4j-simple-1.7.10.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>slf4j-simple-1.7.10</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/slf4j-simple-1.7.10.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/slf4j-simple-1.7.10.jar</systemPath>
 		</dependency>
 		<!-- twitter4j-core-4.0.1.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>twitter4j-core-4.0.1</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/twitter4j-core-4.0.1.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/twitter4j-core-4.0.1.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
 		<dependency>
@@ -458,7 +461,7 @@
 			<groupId>genexus</groupId>
 			<artifactId>xercesImpl-2.12.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/xercesImpl-2.12.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/xercesImpl-2.12.0.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 		<dependency>
@@ -471,35 +474,35 @@
 			<groupId>genexus</groupId>
 			<artifactId>xmltooling-1.4.4</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/xmltooling-1.4.4.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/xmltooling-1.4.4.jar</systemPath>
 		</dependency>
 		<!-- annotations-api.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>annotations-api</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/annotations-api.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/annotations-api.jar</systemPath>
 		</dependency>
 		<!-- artech.security.saml.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>artech.security.saml</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/artech.security.saml.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/artech.security.saml.jar</systemPath>
 		</dependency>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>commons-codec-1.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
@@ -512,14 +515,14 @@
 			<groupId>genexus</groupId>
 			<artifactId>commons-fileupload-1.3.3</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/commons-fileupload-1.3.3.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/commons-fileupload-1.3.3.jar</systemPath>
 		</dependency>
 		<!-- commons-httpclient-3.1.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>commons-httpclient-3.1</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/commons-httpclient-3.1.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/commons-httpclient-3.1.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -544,70 +547,70 @@
 			<groupId>genexus</groupId>
 			<artifactId>encoder-1.2.2</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/encoder-1.2.2.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/encoder-1.2.2.jar</systemPath>
 		</dependency>
 		<!-- encoder-jsp-1.2.2.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>encoder-jsp-1.2.2</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/encoder-jsp-1.2.2.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/encoder-jsp-1.2.2.jar</systemPath>
 		</dependency>
 		<!-- esapi-2.1.0.1.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>esapi-2.1.0.1</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/esapi-2.1.0.1.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/esapi-2.1.0.1.jar</systemPath>
 		</dependency>
 		<!-- GAMCache.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GAMCache</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GAMCache.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GAMCache.jar</systemPath>
 		</dependency>
 		<!-- GAMCryptography.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GAMCryptography</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GAMCryptography.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GAMCryptography.jar</systemPath>
 		</dependency>
 		<!-- GAMDynamicCall.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GAMDynamicCall</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GAMDynamicCall.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GAMDynamicCall.jar</systemPath>
 		</dependency>
 		<!-- GeneXus.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GeneXus</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXus.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXus.jar</systemPath>
 		</dependency>
 		<!-- genexus.security-mysql.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>genexus.security-mysql</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/genexus.security-mysql.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/genexus.security-mysql.jar</systemPath>
 		</dependency>
 		<!-- GeneXusSecurity.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GeneXusSecurity</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
 		</dependency>
 		<!-- GeneXusSecurityCommon.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GeneXusSecurityCommon</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GeneXusSecurityCommon.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GeneXusSecurityCommon.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
@@ -620,35 +623,35 @@
 			<groupId>genexus</groupId>
 			<artifactId>gxclassR</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxclassR.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxclassR.jar</systemPath>
 		</dependency>
 		<!-- gxcommon.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>gxcommon</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxcommon.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxcommon.jar</systemPath>
 		</dependency>
 		<!-- gxcryptocommon.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>gxcryptocommon</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxcryptocommon.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxcryptocommon.jar</systemPath>
 		</dependency>
 		<!-- gxmaps.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>gxmaps</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/gxmaps.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/gxmaps.jar</systemPath>
 		</dependency>
 		<!-- GXzip.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>GXzip</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/GXzip.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/GXzip.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-api -->
 		<dependency>
@@ -673,42 +676,42 @@
 			<groupId>genexus</groupId>
 			<artifactId>jackson-annotations-2.11.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-annotations-2.11.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-annotations-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-core-2.11.0.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-core-2.11.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-core-2.11.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-core-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-databind-2.11.0.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-databind-2.11.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-databind-2.11.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-databind-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-jaxrs-base-2.9.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-jaxrs-base-2.9.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-jaxrs-base-2.9.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-jaxrs-base-2.9.9.jar</systemPath>
 		</dependency>
 		<!-- jackson-jaxrs-json-provider-2.9.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-jaxrs-json-provider-2.9.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-jaxrs-json-provider-2.9.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-jaxrs-json-provider-2.9.9.jar</systemPath>
 		</dependency>
 		<!-- jackson-module-jaxb-annotations-2.9.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jackson-module-jaxb-annotations-2.9.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.9.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.9.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
 		<dependency>
@@ -727,7 +730,7 @@
 			<groupId>genexus</groupId>
 			<artifactId>javax.jms-3.1.2.2</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/javax.jms-3.1.2.2.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/javax.jms-3.1.2.2.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.main.javaee-api/javax.jws -->
 		<dependency>
@@ -764,21 +767,21 @@
 			<groupId>genexus</groupId>
 			<artifactId>jersey-client</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-client.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-client.jar</systemPath>
 		</dependency>
 		<!-- jersey-common.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jersey-common</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-common.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-common.jar</systemPath>
 		</dependency>
 		<!-- jersey-container-servlet-core.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>jersey-container-servlet-core</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-container-servlet-core.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-container-servlet-core.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.ext/jersey-entity-filtering -->
 		<dependency>
@@ -803,98 +806,98 @@
 			<groupId>genexus</groupId>
 			<artifactId>jersey-server</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/jersey-server.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/jersey-server.jar</systemPath>
 		</dependency>
 		<!-- joda-time-2.10.4.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>joda-time-2.10.4</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/joda-time-2.10.4.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/joda-time-2.10.4.jar</systemPath>
 		</dependency>
 		<!-- json-20180813.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>json-20180813</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/json-20180813.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/json-20180813.jar</systemPath>
 		</dependency>
 		<!-- log4j-api-2.13.3.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>log4j-api-2.13.3</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/log4j-api-2.13.3.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/log4j-api-2.13.3.jar</systemPath>
 		</dependency>
 		<!-- log4j-core-2.13.3.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>log4j-core-2.13.3</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/log4j-core-2.13.3.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/log4j-core-2.13.3.jar</systemPath>
 		</dependency>
 		<!-- mysql-connector-java-5.1.49.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>mysql-connector-java-5.1.49</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/mysql-connector-java-5.1.49.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/mysql-connector-java-5.1.49.jar</systemPath>
 		</dependency>
 		<!-- not-yet-commons-ssl-0.3.17.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>not-yet-commons-ssl-0.3.17</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/not-yet-commons-ssl-0.3.17.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/not-yet-commons-ssl-0.3.17.jar</systemPath>
 		</dependency>
 		<!-- oauthlibgx.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>oauthlibgx</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/oauthlibgx.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/oauthlibgx.jar</systemPath>
 		</dependency>
 		<!-- opensaml-2.6.5.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>opensaml-2.6.5</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/opensaml-2.6.5.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/opensaml-2.6.5.jar</systemPath>
 		</dependency>
 		<!-- openws-1.5.4.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>openws-1.5.4</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/openws-1.5.4.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/openws-1.5.4.jar</systemPath>
 		</dependency>
 		<!-- reorganization.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>reorganization</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/reorganization.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/reorganization.jar</systemPath>
 		</dependency>
 		<!-- slf4j-api-1.7.5.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>slf4j-api-1.7.5</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/slf4j-api-1.7.5.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/slf4j-api-1.7.5.jar</systemPath>
 		</dependency>
 		<!-- slf4j-simple-1.7.10.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>slf4j-simple-1.7.10</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/slf4j-simple-1.7.10.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/slf4j-simple-1.7.10.jar</systemPath>
 		</dependency>
 		<!-- twitter4j-core-4.0.1.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>twitter4j-core-4.0.1</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/twitter4j-core-4.0.1.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/twitter4j-core-4.0.1.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
 		<dependency>
@@ -907,7 +910,7 @@
 			<groupId>genexus</groupId>
 			<artifactId>xercesImpl-2.12.0</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/xercesImpl-2.12.0.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/xercesImpl-2.12.0.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 		<dependency>
@@ -920,7 +923,7 @@
 			<groupId>genexus</groupId>
 			<artifactId>xmltooling-1.4.4</artifactId>
 			<scope>system</scope>
-			<systemPath>${basedir}/WEB-INF/lib/xmltooling-1.4.4.jar</systemPath>
+			<systemPath>${basedir}/DeployAKS/WEB-INF/lib/xmltooling-1.4.4.jar</systemPath>
 		</dependency>
 
 	</dependencies>
