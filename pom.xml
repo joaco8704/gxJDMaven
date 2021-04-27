@@ -210,8 +210,9 @@
 					<version>2.6</version>
 					<configuration>
 						<webResources>
-						<!-- this is relative to the pom.xml directory -->
-							<directory>gxJDMaven/pom.xml</directory>
+						    <resource>
+							<directory>${project.basedir}/DeployAKS</directory>
+						    </resource>
 						</webResources>
 					</configuration>
 				</plugin>
