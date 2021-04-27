@@ -23,6 +23,7 @@
 			<artifactId>GeneXusSecurity</artifactId>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/GeneXusSecurity.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- annotations-api.jar -->
 		<dependency>
