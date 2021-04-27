@@ -31,6 +31,7 @@
 			<artifactId>annotations-api</artifactId>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/annotations-api.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- artech.security.saml.jar -->
 		<dependency>
@@ -481,6 +482,7 @@
 			<artifactId>annotations-api</artifactId>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/annotations-api.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- artech.security.saml.jar -->
 		<dependency>
@@ -931,6 +933,7 @@
 			<artifactId>annotations-api</artifactId>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/annotations-api.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- artech.security.saml.jar -->
 		<dependency>
